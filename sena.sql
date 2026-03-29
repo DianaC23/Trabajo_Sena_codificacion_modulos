@@ -1,2 +1,2 @@
-create database sena;
 use sena;
+describe aprendiz
