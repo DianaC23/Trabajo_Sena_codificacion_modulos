@@ -1,2 +1,4 @@
 use sena;
-describe aprendiz
+describe aprendiz;
+SELECT * FROM aprendiz;
+
