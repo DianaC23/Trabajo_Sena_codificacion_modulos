@@ -18,12 +18,12 @@ import lombok.Data;
 public class Aprendiz {
     //Crear elementos de la tabla Aprendiz
     @Id
-    @Column
+    @Column (name="Id Aprendiz")
     private long iduser;
-    @Column
+    @Column (name="Nombres", nullable=false,length=20)
     private String nomuser;
-    @Column
+    @Column (name="Apellidos", nullable=false,length=25)
     private String apellido;
-    @Column
+    @Column (name="Correo Electronico", unique=true,nullable=false)
     private String email;
 }
